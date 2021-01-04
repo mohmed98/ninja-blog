@@ -3,7 +3,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="container mx-auto max-w-4xl	">
+    <div className="container font-mono	 mx-auto max-w-4xl	">
       <Navbar />
       <div className="mt-10 mb-auto p-5">
         <Home />
