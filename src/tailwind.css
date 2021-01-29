@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  button {
+    @apply bg-red-600;
+    @apply text-white;
+    @apply p-2;
+    @apply rounded-lg;
+  }
+}
+h2 {
+  @apply text-red-800;
+  @apply mb-5;
+  @apply text-lg;
+}
+label {
+  @apply block;
+  @apply text-left;
+}
+input,
+select,
+textarea {
+  @apply w-full;
+  @apply py-1.5;
+  @apply px-2.5;
+  @apply my-2.5;
+  @apply border;
+  @apply border-gray-400;
+  @apply block;
+}
